@@ -24,7 +24,5 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-    - name: Change-Directory
-      run: cd Juvenile-Case-Number-Validator-Module.Tests
-    - name: Testing
-      run: dotnet test --no-build --verbosity normal
+    - name: Test
+      run: test --no-build --verbosity normal ./Juvenile-Case-Number-Validator-Module.Testing/Juvenile-Case-Number-Validator-Module.Testing.csproj
