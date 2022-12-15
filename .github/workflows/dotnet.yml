@@ -25,4 +25,5 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: test ./Juvenile-Case-Number-Validator-Module.Testing/Juvenile-Case-Number-Validator-Module.Testing.csproj
+      run: dotnet test ./Juvenile-Case-Number-Validator-Module.Tests/Juvenile-Case-Number-Validator-Module.Tests.csproj
+    
