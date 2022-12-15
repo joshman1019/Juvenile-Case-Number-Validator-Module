@@ -59,6 +59,7 @@ public class UnitTest1
     [InlineData("", CaseTypes.JudicialWaiver)]
     [InlineData("22 CVD 100", CaseTypes.Delinquent)]
     [InlineData("22 M 100", CaseTypes.Delinquent)]
+    [InlineData("22 JA 100", CaseTypes.AbuseNeglectDependency)] // NOTE: Incorrect push for GitHub actions testing
     public void TestIncorrectFileNumberFormatting(string caseNumber, CaseTypes caseType)
     {
         var result = caseNumber.ConfirmValidJuvenileCaseNumber(caseType);
