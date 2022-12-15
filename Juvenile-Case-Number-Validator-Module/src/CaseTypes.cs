@@ -1,12 +1,10 @@
-namespace JCNV
+namespace JCNV;
+public enum CaseTypes
 {
-    public enum CaseTypes
-    {
-        AbuseNeglectDependency,
-        Delinquent, 
-        TerminationOfParentalRights, 
-        Emancipation,
-        JudicialWaiver,
-        ResponsibleIndividualsList
-    }
+    AbuseNeglectDependency,
+    Delinquent,
+    TerminationOfParentalRights,
+    Emancipation,
+    JudicialWaiver,
+    ResponsibleIndividualsList
 }
