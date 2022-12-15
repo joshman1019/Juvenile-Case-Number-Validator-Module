@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Juvenile-Case-Number-Validator-Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Juvenile-Case-Number-Validator-Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Juvenile-Case-Number-Validator-Module.dll": {}
+        }
       }
     }
   },
@@ -5962,10 +5972,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Juvenile-Case-Number-Validator-Module/1.0.0": {
+      "type": "project",
+      "path": "../Juvenile-Case-Number-Validator-Module/Juvenile-Case-Number-Validator-Module.csproj",
+      "msbuildProject": "../Juvenile-Case-Number-Validator-Module/Juvenile-Case-Number-Validator-Module.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Juvenile-Case-Number-Validator-Module >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
@@ -5978,11 +5994,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj",
       "projectName": "Juvenile-Case-Number-Validator-Module.Tests",
-      "projectPath": "C:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj",
+      "projectPath": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj",
       "packagesPath": "C:\\Users\\c44jhs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\obj\\",
+      "outputPath": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\c44jhs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5997,7 +6013,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.csproj": {
+              "projectPath": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

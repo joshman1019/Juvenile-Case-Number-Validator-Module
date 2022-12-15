@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj": {}
+    "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj": {
+    "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj",
         "projectName": "Juvenile-Case-Number-Validator-Module.Tests",
-        "projectPath": "C:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj",
+        "projectPath": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\Juvenile-Case-Number-Validator-Module.Tests.csproj",
         "packagesPath": "C:\\Users\\c44jhs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\obj\\",
+        "outputPath": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\c44jhs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,7 +26,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.csproj": {
+                "projectPath": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -60,6 +64,59 @@
               "version": "[2.4.3, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\dotnet-sdk-6.0.201-win-x64\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.csproj",
+        "projectName": "Juvenile-Case-Number-Validator-Module",
+        "projectPath": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module.csproj",
+        "packagesPath": "C:\\Users\\c44jhs\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\c44jhs\\OneDrive - North Carolina Administrative Office of the Courts\\Desktop\\Software Clones\\Juvenile-Case-Number-Validator-Module\\Juvenile-Case-Number-Validator-Module\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\c44jhs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Users\\c44jhs\\AppData\\Roaming\\NuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
