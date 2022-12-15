@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: test ./Juvenile-Case-Number-Validator-Module.Testing/Juvenile-Case-Number-Validator-Module.Testing.csproj --no-build --verbosity normal
+      run: test ./Juvenile-Case-Number-Validator-Module.Testing/Juvenile-Case-Number-Validator-Module.Testing.csproj
