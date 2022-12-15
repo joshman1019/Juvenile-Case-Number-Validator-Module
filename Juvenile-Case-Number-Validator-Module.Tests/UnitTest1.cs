@@ -5,6 +5,11 @@ namespace JCNV.Tests;
 
 public class UnitTest1
 {
+    /// <summary>
+    /// Tests correctly formatted case numbers against the validator
+    /// </summary>
+    /// <param name="caseNumber"></param>
+    /// <param name="caseType"></param>
     [Theory]
     [InlineData("00 JA 000000", CaseTypes.AbuseNeglectDependency)]
     [InlineData("22 JB 000001", CaseTypes.Delinquent)]
@@ -30,6 +35,11 @@ public class UnitTest1
         Assert.True(result);
     }
 
+    /// <summary>
+    /// Tests incorrectly formatted case numbers against the validator
+    /// </summary>
+    /// <param name="caseNumber"></param>
+    /// <param name="caseType"></param>
     [Theory]
     [InlineData("00 BA 000000", CaseTypes.AbuseNeglectDependency)]
     [InlineData("00 JA", CaseTypes.AbuseNeglectDependency)]
@@ -47,6 +57,8 @@ public class UnitTest1
     [InlineData("", CaseTypes.Emancipation)]
     [InlineData("", CaseTypes.ResponsibleIndividualsList)]
     [InlineData("", CaseTypes.JudicialWaiver)]
+    [InlineData("22 CVD 100", CaseTypes.Delinquent)]
+    [InlineData("22 M 100", CaseTypes.Delinquent)]
     public void TestIncorrectFileNumberFormatting(string caseNumber, CaseTypes caseType)
     {
         var result = caseNumber.ConfirmValidJuvenileCaseNumber(caseType);
